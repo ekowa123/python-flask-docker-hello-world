@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Flask inside Docker ekooooo!!"
+    return "Flask inside Docker ekooo!!"
 
 
 if __name__ == "__main__":
